@@ -18,53 +18,37 @@ Installation:
 
     Clone the repository:
 
-    bash
-
-git clone https://github.com/your_username/note-app.git
+    git clone https://github.com/your_username/note-app.git
 
 Navigate to the project directory:
 
-bash
-
-cd note-app
+bash  cd note-app
 
 Set up the backend:
 
     Install Python dependencies:
 
-    bash
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Run migrations:
 
-bash
-
-python manage.py migrate
+    python manage.py migrate
 
 Run the Django development server:
-
-bash
 
     python manage.py runserver
 
 Set up the frontend:
 
-    Navigate to the frontend directory:
+Navigate to the frontend directory:
 
-    bash
-
-cd frontend
+    cd frontend
 
 Install Node.js dependencies:
 
-bash
-
-npm install
+    npm install
 
 Run the React development server:
-
-bash
 
     npm start
 
